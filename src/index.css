@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Sora:wght@100;300;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: rgb(190,185,242);
+  background: linear-gradient(127deg, rgba(190,185,242,1) 7%, rgba(197,180,217,1) 27%, rgba(252,217,210,1) 56%, rgba(197,180,217,1) 91%);
+  background-size: cover; /* Ajusta el tamaño del fondo para cubrir completamente el contenedor */
+  background-attachment: fixed;
+}
