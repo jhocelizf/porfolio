@@ -46,15 +46,22 @@ const Proyectos = () => {
                         
                     />
                     <Tarjetas
-                        git='https://github.com/jhocelizf/guarderia-el-country'
+                        git='https://github.com/jhocelizf/Traductor..git'
                         deploy='https://guarderia-el-country.vercel.app/'
                         title='Traductor'
-                        text='How the pandemic has sparked fresh opportunities.'
+                        text='Traductor es una app diseñada para brindarte una experiencia de
+                        traducción rápida. Desarrollada con React, utiliza solicitudes GET para 
+                        obtener información sobre los idiomas disponibles y POST para enviar tus solicitudes de
+                        traducción a la API.'
+                        customIcon={
+                            <>
+                            <FaReact /> 
+                            <IoLogoCss3 />
+                            <IoLogoJavascript />
+                            </>
+                    }
                     />
                 </div>
-
-
-
             </div>
         </>
     )

@@ -5,7 +5,7 @@ export const Footer = () => {
         <>
             <div className='flex flex-col items-center justify-center text-ColorPrimario border-t-4 m-6 md:h-[100px]'>
                 <div>
-                    <h2 className='p-4'>Jhoceliz Figueroa © copyright</h2>
+                    <h2 className='p-4'>©2024 All Rights Reserved.</h2>
                 </div>
                 <div className='flex'>
                     <div className='hover:scale-150 hover:transform hover:transition-transform '>

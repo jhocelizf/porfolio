@@ -21,19 +21,19 @@ const Nav = () => {
                         <i className="bi bi-x-lg w-8 h-8 mb-[87px]" onClick={handleClick}></i>
                     </li>
 
-                    <li>
+                    <li className='hover:font-extrabold'>
                         <ScrollLink to="inicio" smooth={true}>Inicio</ScrollLink>
                     </li>
-                    <li>
+                    <li className='hover:font-extrabold'>
                         <ScrollLink to="sobremi" smooth={true}>Sobre mi</ScrollLink>
                     </li>
-                    <li>
+                    <li className='hover:font-extrabold'>
                         <ScrollLink to="servicios" smooth={true}>Servicios</ScrollLink>
                     </li>
-                    <li>
+                    <li className='hover:font-extrabold'>
                         <ScrollLink to="proyectos" smooth={true}>Proyectos</ScrollLink>
                     </li>
-                    <li>
+                    <li className='hover:font-extrabold'>
                         <ScrollLink to="contacto" smooth={true}>Contacto</ScrollLink>
                     </li>
                 </ul>

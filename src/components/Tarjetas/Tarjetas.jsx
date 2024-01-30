@@ -11,10 +11,10 @@ const Tarjetas = ({ title, text, git, deploy, customIcon}) => {
                     {git && <a className="pr-2" href={git} target="_blank" rel="noopener noreferrer"><FaGithub /></a>}
                     {deploy && <a href={deploy} target="_blank" rel="noopener noreferrer"><PiPaperclipHorizontalBold /></a>}
                     </div>
-                    <h2 className='font-bold pb-2 mb-[18px] hover:text-SoftOrange cursor-pointer text-[13px] sm:text-[14px]'>{title}</h2>
+                    <h2 className='font-bold pb-1 mb-[18px] hover:text-SoftOrange cursor-pointer text-[13px] sm:text-[14px]'>{title}</h2>
                     <p className='text-GrayishBlue text-[12px] sm:text-[13px]'>{text}</p>
                     {customIcon && (
-                        <div className='flex mt-2 pt-6 pr-6 gap-3 text-2xl'>
+                        <div className='flex mt-2 pt-3 pr-6 gap-3 text-2xl'>
                             {customIcon}
                         </div>
                     )}
