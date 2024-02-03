@@ -47,7 +47,7 @@ const Proyectos = () => {
                     />
                     <Tarjetas
                         git='https://github.com/jhocelizf/Traductor..git'
-                        deploy='https://traductor-pink.vercel.app/'
+                        deploy='https://traductor-pink.vercel.app'
                         title='Traductor'
                         text='Traductor es una app diseñada para brindarte una experiencia de
                         traducción rápida. Desarrollada con React, utiliza solicitudes GET para 
