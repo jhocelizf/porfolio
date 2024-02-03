@@ -9,7 +9,7 @@ export const Contacto = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(import.meta.env.VITE_REACT_APP_SERVICE_ID, import.meta.env.VITE_REACT_APP_TEMPLATE_ID, form.current, import.meta.env.VITE_REACT_APP_PUBLIC_KEY)
+        emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
                 Swal.fire({
