@@ -9,13 +9,13 @@ export const Footer = () => {
                 </div>
                 <div className='flex'>
                     <div className='hover:scale-150 hover:transform hover:transition-transform '>
-                        <a href="https://github.com/jhocelizf" target="_blank"><i className="bi bi-github mt-2 pt-6 pr-6"></i></a>
+                        <a href="https://github.com/jhocelizf" target="_blank"><i className="bi bi-github mt-2 pt-6 pl-6 pr-6"></i></a>
                     </div>
                     <div className='hover:scale-150 hover:transform hover:transition-transform '>
                         <a href="https://www.linkedin.com/in/jhoceliz-figueroa-ab82a919a/" target="_blank"><i className="bi bi-linkedin mt-2 pt-6 pr-6 "></i></a>
                     </div>
                     <div className='hover:scale-150 hover:transform hover:transition-transform '>
-                        <a href="mailto:jhocelizf@gmail.com?subject=Asunto%20del%20correo&body=Cuerpo%20del%20mensaje" target="_blank"><i className="bi bi-envelope-at-fill mt-2 pt-6 pr-6 "></i></a>
+                        <a href="mailto:jhocelizf@gmail.com?subject=Asunto del correo&body=Cuerpo del mensaje" target="_blank"><i className="bi bi-envelope-at-fill mt-2 pt-6 pr-6 "></i></a>
                     </div>
                     <div className='hover:scale-150 hover:transform hover:transition-transform '>
                         <a href="https://api.whatsapp.com/send/?phone=541173695695&text=Hola&type=phone_number&app_absent=0" target="_blank"><i className="bi bi-whatsapp mt-2 pt-6 pr-6 "></i></a>

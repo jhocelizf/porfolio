@@ -9,6 +9,23 @@ export const Contacto = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        const user_name = form.current['user_name'].value;
+        const user_email = form.current['user_email'].value;
+        const message = form.current['message'].value;
+
+        if (!user_name || !user_email || !message) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Por favor, rellene todos los campos',
+                showConfirmButton: false,
+                timer: 2000,
+                customClass: {
+                    title: 'font-Sora font-extrabold text-ColorPrimario ',
+                },
+            });
+            return; 
+        }
+
         emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
